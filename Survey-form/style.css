@@ -1,0 +1,68 @@
+body {
+    font-family: 'poppins';
+    background-image: url(hacker_mask.jpg);
+    color: white;
+    background-size: contain;
+}
+.title, .description {
+    text-align: center;
+}
+.container {
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(0, 52, 139, 0.7);
+    margin-inline: auto;
+    border-radius: 15px;
+}
+input {
+    width: 98%;
+    padding: 7.5px;
+    border-style: none;
+    border-radius: 9px;
+    margin-block: 5px;
+}
+select {
+    width: 100%;
+    font-family: 'poppins';
+    padding: 7.5px;
+    border-style: none;
+    border-radius: 9px;
+    margin-block: 5px;
+}
+.required {
+    color: red;
+}
+.submit-btn {
+    width: 100%;
+    padding: 7.5px;
+    border-radius: 9px;
+    margin-top: 12px;
+    border-style: solid;
+    color: white;
+    border-color: green;
+    background-color: green;
+    transition: all 0.4s ease;
+}
+.submit-btn:hover {
+    background-color: white;
+    color: green;
+}
+.reset-btn {
+    width: 100%;
+    padding: 7.5px;
+    border-radius: 9px;
+    margin-top: 12px;
+    border-style: solid;
+    color: white;
+    border-color: red;
+    background-color: red;
+    transition: all 0.4s ease;
+}
+.reset-btn:hover {
+    background-color: white;
+    color: red;
+}
+.notice {
+    text-align: center;
+    font-size: small;
+}
