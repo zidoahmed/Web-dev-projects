@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('http://bit.ly/418mqna');
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+        <h1 class="title">Registration Form</h1>
+        <p class="description">Fill out the needed info for your registration</p>
+        <div class="container">
+            <label for="name">Name <span class="required">*</span>:</label><br>
+            <input type="text" name="name" placeholder="Enter Your Full Name..." required><br>
+            <label for="email">Email <span class="required">*</span>:</label><br>
+            <input type="email" name="email" placeholder="Enter Your Email..." required><br>
+            <label for="age">Age <span class="required">*</span>:</label><br>
+            <input type="number" placeholder="Enter Your Age..." min="12" max="55" required><br>
+            <label for="position">What explains your current position? <span class="required">*</span>:</label><br>
+            <select name="position" id="position">
+                <option value="student">Student</option>
+                <option value="coder">Coder</option>
+                <option value="part-time">Part-time Job</option>
+                <option value="full-time">Full-time Job</option>
+            </select>
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
+            <p class="notice"><span class="required">*</span> = Required</p>
+        </div>
+    </form>
+</body>
+</html>
