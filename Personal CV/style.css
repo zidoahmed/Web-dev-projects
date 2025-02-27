@@ -1,0 +1,29 @@
+@import url('http://bit.ly/418mqna');
+body {
+    background-color: white;
+    font-family: 'poppins', Arial;
+    font-weight: medium;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: -5px;
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 15px;
+    width: 75%;
+}
+.container {
+    border-style: solid;
+    padding: 25px;
+    border-width: 3px;
+    width: fit-content;
+    margin-inline: auto;
+}
+.title {
+    color: #3b7a57;
+    margin-bottom: 0%;
+}
+.sub-title {
+    color: #0530ad;
+    font-weight: bold;
+}
