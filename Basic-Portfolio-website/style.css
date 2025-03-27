@@ -1,9 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-    font-family: 'caveat';
+    background-color: #343434;
+    color: white;
+    font-family: arial;
 }
-.container {
-    width: 95%;
-    border-style: solid;
-    margin-inline: auto;
+.title, .mini-title {
+    text-align: center;
+}
+.mini-title {
+    color: white;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5px 0;
+}
+.logo {
+    width: 70px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
 }
