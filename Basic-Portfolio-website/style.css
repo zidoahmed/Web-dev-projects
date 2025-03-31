@@ -1,32 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-    background-color: #343434;
-    color: white;
-    font-family: arial;
+    background-color: hsl(0, 0%, 16%);
+    margin: 0px;
+    font-family: 'roboto';
 }
-.title, .mini-title {
+.logo {
+    width: 44px;
+    cursor: pointer;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 16%);
+    color: #bf40bf;
+}
+.navbar li {
+    float: right;
+}
+h1 {
+    margin-top: 80px;
+    color: white;
     text-align: center;
 }
-.mini-title {
+.description {
+    text-align: center;
     color: white;
+    margin-top: -10px;
 }
-nav {
+.navbar_two {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0.5px 0;
+    justify-content: space-evenly;
 }
-.logo {
-    width: 70px;
-    cursor: pointer;
+.navbar_two ul {
+    padding-top: 150px;
+    list-style-type: none;
 }
-nav ul{
-    list-style: none;
-    width: 100%;
-    text-align: right;
-    padding-right: 60px;
+.navbar_two ul li {
+    padding-block: 15px;
 }
-nav ul li{
-    display: inline-block;
-    margin: 10px 20px;
+.navbar_two a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.navbar_two a:hover {
+    color: #bf40bf;
+    text-decoration-color: #bf40bf;
+}
+footer {
+    margin-top: 500px;
+}
+.navbar_three ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+}
+.navbar_three a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.navbar_three a:hover {
+    background-color: hsl(0, 0%, 16%);
+    color: #bf40bf;
 }
